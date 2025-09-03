@@ -1,0 +1,144 @@
+{
+  "pokedex": [
+    {
+      "id": 1,
+      "name": "Bulbizarre",
+      "type": "Plante",
+      "image": "https://www.pokemon.com/fr/pokedex/bulbizarre",
+      "description": "Un Pokémon calme qui absorbe l'énergie solaire grâce à la graine sur son dos."
+    },
+    {
+      "id": 2,
+      "name": "Herbizarre",
+      "type": "Plante",
+      "image": "https://www.pokemon.com/fr/pokedex/herbizarre",
+      "description": "Son bulbe grandit avec lui et commence à fleurir lorsqu'il est en bonne santé."
+    },
+    {
+      "id": 3,
+      "name": "Florizarre",
+      "type": "Plante",
+      "image": "https://www.pokemon.com/fr/pokedex/florizarre",
+      "description": "La fleur sur son dos libère un parfum apaisant qui calme les émotions."
+    },
+    {
+      "id": 4,
+      "name": "Salamèche",
+      "type": "Feu",
+      "image": "https://www.pokemon.com/fr/pokedex/salameche",
+      "description": "La flamme au bout de sa queue reflète son état de santé et ses émotions."
+    },
+    {
+      "id": 5,
+      "name": "Reptincel",
+      "type": "Feu",
+      "image": "https://www.pokemon.com/fr/pokedex/reptincel",
+      "description": "Un Pokémon fougueux qui devient agressif lorsqu'il est en colère."
+    },
+    {
+      "id": 6,
+      "name": "Dracaufeu",
+      "type": "Feu",
+      "image": "https://www.pokemon.com/fr/pokedex/dracaufeu",
+      "description": "Crache des flammes si puissantes qu'elles peuvent faire fondre n'importe quoi."
+    },
+    {
+      "id": 7,
+      "name": "Carapuce",
+      "type": "Eau",
+      "image": "https://www.pokemon.com/fr/pokedex/carapuce",
+      "description": "Utilise sa carapace pour se protéger et se propulse en crachant de l'eau."
+    },
+    {
+      "id": 8,
+      "name": "Carabaffe",
+      "type": "Eau",
+      "image": "https://www.pokemon.com/fr/pokedex/carabaffe",
+      "description": "Ses oreilles touffues et sa carapace robuste en font un combattant fiable."
+    },
+    {
+      "id": 9,
+      "name": "Tortank",
+      "type": "Eau",
+      "image": "https://www.pokemon.com/fr/pokedex/tortank",
+      "description": "Ses canons dorsaux projettent de puissants jets d'eau à haute pression."
+    },
+    {
+      "id": 10,
+      "name": "Chenipan",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/chenipan",
+      "description": "Petit et curieux, il se nourrit de feuilles pour grandir rapidement."
+    },
+    {
+      "id": 11,
+      "name": "Chrysacier",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/chrysacier",
+      "description": "Son corps dur le protège pendant sa métamorphose vers Papilusion."
+    },
+    {
+      "id": 12,
+      "name": "Papilusion",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/papilusion",
+      "description": "Ses ailes colorées diffusent des poudres aux effets variés."
+    },
+    {
+      "id": 13,
+      "name": "Aspicot",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/aspicot",
+      "description": "Son dard sur la tête est empoisonné et sert à se défendre."
+    },
+    {
+      "id": 14,
+      "name": "Coconfort",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/coconfort",
+      "description": "Immobile, il se prépare à évoluer en un Pokémon plus puissant."
+    },
+    {
+      "id": 15,
+      "name": "Dardargnan",
+      "type": "Insecte",
+      "image": "https://www.pokemon.com/fr/pokedex/dardargnan",
+      "description": "Rapide et agressif, il attaque avec ses trois dards empoisonnés."
+    },
+    {
+      "id": 16,
+      "name": "Roucool",
+      "type": "Vol",
+      "image": "https://www.pokemon.com/fr/pokedex/roucool",
+      "description": "Un oiseau paisible qui utilise des rafales pour se défendre."
+    },
+    {
+      "id": 17,
+      "name": "Roucoups",
+      "type": "Vol",
+      "image": "https://www.pokemon.com/fr/pokedex/roucoups",
+      "description": "Son vol est rapide et précis, idéal pour la chasse en plein ciel."
+    },
+    {
+      "id": 18,
+      "name": "Roucarnage",
+      "type": "Vol",
+      "image": "https://www.pokemon.com/fr/pokedex/roucarnage",
+      "description": "Son plumage majestueux et ses attaques aériennes en font un prédateur redoutable."
+    },
+    {
+      "id": 19,
+      "name": "Rattata",
+      "type": "Normal",
+      "image": "https://www.pokemon.com/fr/pokedex/rattata",
+      "description": "Petit mais tenace, il mord tout ce qui menace son territoire."
+    },
+    {
+      "id": 20,
+      "name": "Rattatac",
+      "type": "Normal",
+      "image": "https://www.pokemon.com/fr/pokedex/rattatac",
+      "description": "Ses dents acérées peuvent ronger presque n'importe quel matériau."
+    }
+  ]
+}
