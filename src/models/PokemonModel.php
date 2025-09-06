@@ -3,28 +3,22 @@ class PokemonModel
 {
     public function getAll(): array
     {
-        // Stack du fichier .json.
         $json = file_get_contents("data/pokemons.json");
-
-        // Creation tableau assossiatif.
-        $allPokemons = json_decode($json, true);
-
-        // Ont return tous les pokemons.
-        return $allPokemons;
+        $data = json_decode($json, true);
+        return $data["pokedex"]; // ⚡ On retourne directement le tableau des Pokémon
     }
 
-    public function getById(int $id)
+    public function getById(int $id): ?array
     {
-        // Stack du fichier .json.
         $json = file_get_contents("data/pokemons.json");
-
-        // Creation tableau assossiatif
         $data = json_decode($json, true);
-        // Ont parcours le tableau pour récup l'id et le return.
-        foreach ($data as $idPokemon) {
-            if ($idPokemon["id"] === $id) {
-                return $idPokemon;
+
+        foreach ($data["pokedex"] as $pokemon) {
+            if ($pokemon["id"] === $id) {
+                return $pokemon;
             }
         }
+        return null;
     }
 }
+
