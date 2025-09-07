@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Liste des Pokémons</h1>
-    <ul>
-        <?php foreach ($allPokemons as $pokemon): ?>
-            <li>
-                <?= $pokemon["name"] ?>
-                <br>
-                <img src="<?= $pokemon["image"] ?>" alt="<?= $pokemon["name"] ?>">
-                <br>
-                <a href="index.php?page=details&id=<?= $pokemon["id"] ?>">Voir détails</a>
-            </li>
-
-        <?php endforeach; ?>
-    </ul>
+    <h1 class="text-center m-5 display-1">Liste des Pokémons</h1>
+    <div class="container">
+        <div class="row justify-content-between">
+            <?php foreach ($allPokemons as $pokemon): ?>
+                <div class="card mb-5" style="width: 18rem;">
+                    <img src="<?= $pokemon["image"] ?>" alt="<?= $pokemon["name"] ?>">
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $pokemon["name"] ?></h5>
+                        <p class="card-text"><?= $pokemon["description"] ?></p>
+                        <a href="index.php?page=details&id=<?= $pokemon["id"] ?>">Voir détails</a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
