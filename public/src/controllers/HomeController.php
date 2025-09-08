@@ -1,4 +1,7 @@
 <?php
+namespace App\controllers;
+use App\models\PokemonModel;
+
 class HomeController
 {
     public function index() {

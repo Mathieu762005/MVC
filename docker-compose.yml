@@ -2,12 +2,12 @@ services:
   web:
     image: php:8.2-apache
     # pensée a changé le nom du container name
-    container_name: php-apache-MVC
+    container_name: php-apache-MVC-autoload
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./src:/var/www/html
+      - ./public:/var/www/html
     ports:
       - "8000:80"
     networks:
