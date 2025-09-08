@@ -11,11 +11,17 @@
 
 <body>
     <main>
-        <div>
-            <?php foreach ($allPokemons as $pokemon): ?>
-                <img src="<?= $pokemon["image"] ?>" alt="<?= $pokemon["name"] ?>">
-                <p class="card-text"><?= $pokemon["description"] ?></p>
-            <?php endforeach; ?>
+        <header>
+            <h1 class="text-center display-1 my-3 pb-5"><?= $idPokemon["name"] ?></h1>
+        </header>
+        <div class="container text-center d-flex justify-content-center mt-5">
+            <div class="card mb-5" style="width: 25rem;">
+                <img src="<?= $idPokemon["image"] ?>" alt="">
+                <div class="card-body">
+                    <h2><?= $idPokemon["name"] ?></h2>
+                    <p class="card-text"><?= $idPokemon["description"] ?></p>
+                </div>
+            </div>
         </div>
     </main>
 </body>

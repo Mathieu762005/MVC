@@ -5,7 +5,7 @@ class PokemonModel
     {
         $json = file_get_contents("data/pokemons.json");
         $data = json_decode($json, true);
-        return $data["pokedex"]; // ⚡ On retourne directement le tableau des Pokémon
+        return $data["pokedex"];
     }
 
     public function getById(int $id): ?array
